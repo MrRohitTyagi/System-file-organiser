@@ -113,7 +113,7 @@ function sendfiles(srcfilePath, destfilepath, filecatagory) {  //function for cr
     let fileName = path.basename(srcfilePath)
     let destFilePAth = path.join(catPAth, fileName)
     fs.copyFileSync(srcfilePath, destFilePAth)
-    //fs.unlinkSync(srcFilePath);  //uncomment this code if you want to delelte all the dis organised files after all files get organised 
+    //fs.unlinkSync(srcfilePath);  //uncomment this code if you want to delelte all the dis organised files after all files get organised 
     console.log('files organised')
 
 
